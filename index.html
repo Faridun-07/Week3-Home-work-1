@@ -5,10 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <div class="bg-[#438DB8]">
+    <header class=" max-w-300 m-auto flex justify-between lg:p-[20px_0] md:flex-row-reverse md:p-[20px_0] p-[20px_20px] lg:flex-row">
+        <div class="flex gap-[10px] items-start hidden lg:flex md:flex">
+            <p class="text-[white]">Follow us: </p>
+            <img src="./src/images/facebook.png" alt="">
+            <img src="./src/images/instagarm.png" alt="">
+            <img src="./src/images/twitter.png" alt="">
+        </div>
+        <h1 class="text-white font-bold">Winter is coming! 50% off for new year</h1>
+        <div class="flex gap-[20px] hidden lg:flex">
+        <div class="flex gap-[10px] items-center">
+            <i class="fa-solid fa-phone" style="color:white;"></i>
+            <p class="text-[white]">(+98) 253-1189</p>
+        </div>
+        <div class="flex gap-[10px] items-center">
+            <i class="fa-regular fa-envelope" style="color:white;"></i>
+            <p class="text-[white]">pigmentagency@gmail.com</p>
+        </div>
+        </div>
+    </header>
+    </div>
+    <header class="max-w-300 m-auto flex flex-col gap-[30px] lg:flex-row md:flex-row lg:items-center lg:justify-between p-[20px_20px] lg:px-[0] md:px-0 md:justify-between">
+        <div class="flex gap-[20px] items-center">
+        <p class="lg:hidden flex"><i class="fa-solid fa-bars" style="color:#438DB8; font-size: 20px;"></i></p>
+        <img src="./src/images/Mansoury..png" alt="Logo">
+        </div>
+        <nav class="flex gap-[20px] hidden lg:flex">
+            <p>Home</p>
+            <p>Products</p>
+            <p>Pages</p>
+            <p>About us</p>
+            <p>Contact us</p>
+        </nav>
+        <div class="flex items-center gap-[10px]">
+            <input class="border-[2px] border-[lightgray] rounded-[5px] py-[5px] pl-[15px] outline-none" type="email" placeholder="Register / Login">
+            <button class="border-[2px] border-[lightgray] p-[4px_8px] rounded-[5px]"><i class="fa-solid fa-cart-shopping" style="color:lightgray; font-size: 12px;"></i></button>
+            <button  class="border-[2px] border-[lightgray] p-[4px_8px] rounded-[5px]"><i class="fa-solid fa-magnifying-glass" style="color:lightgray; font-size: 12px;"></i></button>
+        </div>
+    </header>
+    <main>
+        <section class="p-[50px_10px] lg:p-[20px-0] md:p-[50px_0]">
+            <img class="lg:w-[100%] lg:flex hidden" src="./src/images/slider.png" alt="">
+            <img class="hidden md:flex lg:hidden md:w-[100%]" src="./src/images/slider2.png" alt="">
+            <img class="lg:hidden md:hidden" src=".//src/images/slider3.png" alt="">
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
